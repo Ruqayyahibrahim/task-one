@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: white;
+display:flex;
+}
+
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+img{
+    padding-bottom: 20px;
+
+}
+
+
+.first{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    padding: 40px;
+}
+
+
+
+.second{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    padding: 40px;
+}
+
+
+.third{
+    background-color:hsl(179, 100%, 13%);
+    color: white;
+    padding: 40px;
+}
+
+h4{
+    font-family: Big Shoulders Display;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+p{
+    font-family: lexendDeca-Bold;
+    font-size: 15px;
+    padding-bottom: 60px;
+}
+
+
+button{
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+
+}
+
+
+.buttona:active{
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+    padding: auto;
+    cursor: pointer;
+
+}
+
+
+
+.buttonb:active {
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+    padding: auto;
+    cursor: pointer;
+
+}
+
+
+.buttonc:active {
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    padding: auto;
+    cursor: pointer;
+
+}
+
+.nav{
+    display: flex;
+   
+}
+
+.nav a{
+    background-color: hsl(179, 100%, 13%) ;
+    color: white;
+    padding: 16px 30px;
+}
+
+@media screen and (max-width: 1440px) {
+    .main{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 375px) {
+    .main{
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
